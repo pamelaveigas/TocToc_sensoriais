@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --branco: #ffffff;
+    --preto: #000;
+    --laranja: #F4A226;
+    --verde: #98D9A9;
+    --azul: #AED6F1;
+    --amarelo: #FFCA2E;
+    --rosao: #FE4476;
+    --roxo: #8E61A6;
+}
+
+body {
+    background-color: var(--branco);
+}
+
+/* HEADER -------*/
+header {
+    width: 100%;
+}
+
+header>div.conteiner-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 1200px;
+}
+
+.conteiner-flex {
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
