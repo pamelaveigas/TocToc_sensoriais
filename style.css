@@ -43,10 +43,10 @@ header {
 }
 
 /*BARRA DE PESQUISA-----------------------------------------------*/
-.barra {
+/* .barra {
     background-color: var(--roxo);
 
-}
+} */
 
 /*topicos do começo*/
 header>div.conteiner-flex {
