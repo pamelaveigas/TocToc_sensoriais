@@ -153,9 +153,114 @@ header>div.conteiner-flex {
     height: 1500px;
 }
 
+
+
 #produtos h2 {
+
     font-family: "Super Malibu", Regular;
     font-size: 98px;
-    color: #ffffff;
-    
+    color: var(--branco);
+    margin-top: 250px;
+    background-color: var(--azul);
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* SECTION CURSOS ---------------------------- */
+
+#rosabanner {
+    margin-top: -900px;
+
+}
+
+.fundo-banner {
+    background-image: url(./img/banner02.svg);
+    height: 3500px;
+    background-size: cover;
+
+}
+
+#text p {
+    text-align: center;
+    font-size: 60px;
+    font-family: "VarelaRound-Regular", Regular;
+    color: var(--branco);
+    padding-right: 60px
+}
+
+.pecas {
+    width: 100%;
+}
+
+/* footer------ */
+footer {
+    height: 300px;
+}
+
+.roda-pe {
+    background-color: var(--laranja);
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.roda-pe h2 {
+    font-size: 60px;
+    font-family: "Super Malibu", Regular;
+    color: var(--branco);
+    text-align: center;
+}
+
+.icons {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--branco);
+}
+
+
+
+.barra input {
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+
+}
+
+.icons {
+    margin-top: 80px;
+    align-items: center;
+}
+
+
+
+.icons p {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "VarelaRound-Regular", Regular;
+
+}
+
+/* aqui */
+.CE p {
+    margin-top: 35px;
+    margin-left: 50px;
+    font-family: "VarelaRound-Regular", Regular;
+    font-size: 40px;
+    color: var(--branco);
+}
+
+.CE .icons {
+    /* margin-left: 17px; */
+    width: 30px;
+
+}
+
+div .icones-redes {
+    margin-left: 50px;
+
 }
